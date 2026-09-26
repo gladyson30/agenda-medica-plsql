@@ -6,6 +6,13 @@ médicas em que as regras de negócio ficam dentro do banco de dados.
 A ideia é que a regra valha para qualquer sistema que grave no banco, seja uma
 aplicação web, um relatório ou um script de importação.
 
+## O que este projeto demonstra
+
+- Regras de negócio implementadas no próprio banco, com validação de conflito de horário
+- Auditoria automática de cancelamentos via trigger
+- Consultas agregadas com function reutilizável em SELECT
+- Ambiente reproduzível com Docker Compose
+
 ## Tecnologias
 
 - Oracle Database 23 Free (imagem `gvenzl/oracle-free`)
